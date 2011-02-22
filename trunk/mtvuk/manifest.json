@@ -1,0 +1,17 @@
+{
+  "name": "MTV UK Mobile",
+  "version": "0.0.1",
+  "description": "MTV UK Mobile Chrome Extension",
+  "browser_action": {
+    "default_icon": "icon48.png",
+    "popup": "popup.html"
+  },
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "permissions": [
+    "http://www.mtv.co.uk/", 
+    "http://wapsbt.momac.net/",
+    "tabs"
+  ]
+}

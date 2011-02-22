@@ -1,0 +1,22 @@
+
+<html><head><title>SocialDNS</title>
+ <style type="text/css">
+    body {width:283; height:31;}
+    </style> 
+
+<script language="javascript">
+<!--  
+function go(dns) {
+  socialdns = "http://www.socialdns.net/domains/resolve/" + dns
+  chrome.tabs.create({url: socialdns});   
+}     
+//-->
+</script>
+
+<body>
+<form>
+<b>go://</b><input type="text" value="" name="socialdns">
+<input type="button" value="SocialDNS" onClick="go(socialdns.value)">
+</form>
+</body></html>
+       
