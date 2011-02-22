@@ -1,0 +1,16 @@
+{
+  "name": "Globo.com",
+  "version": "0.0.1",
+  "description": "Globo Chrome Extension",
+  "browser_action": {
+    "default_icon": "icon32.png",
+    "popup": "popup.html"
+  },
+  
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "permissions": [
+    "http://www.globo.com/", "tabs"
+  ]
+}
